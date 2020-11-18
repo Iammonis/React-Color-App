@@ -12,14 +12,15 @@ export class Palette extends Component {
         
         const Palette = styled.div`
             height:100vh;
-        `
-        const PaletteColors = styled.div`
-            height:90%;
+
+            & .Palette-colors{
+                height:90%;
+            }
         `
         return (
             <Palette>
                 {/* // Navbar */}
-                <PaletteColors>{colorBoxes}</PaletteColors>
+                <div className="Palette-colors">{colorBoxes}</div>
                 {/* footer */}
             </Palette>
         )
