@@ -1,0 +1,92 @@
+.colorBox{
+    width: 20%;
+    height: 25%;
+    margin: 0 auto;
+    display: inline-flex;
+    position: relative;
+    cursor: pointer;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+.colorBox:hover button{
+    opacity:1;  
+    transition:0.5s;
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    display: initial;
+}
+
+/* .hideOverlay{
+    opacity: 0;
+    z-index: 0;
+    transition: all 0.5s ease-in-out;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+} */
+
+.showTime{
+    z-index: 10;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    text-transform:uppercase;
+    width:100px;
+    height:30px;
+    font-size:1rem;
+    opacity:0;
+    outline:none;
+    border:none;
+    color:#fff;
+    background-color: rgb(255,255,255,0.4);
+    line-height:30px;
+    cursor:pointer;
+    display: none;
+}
+
+.copyMessage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 100%;
+    font-weight: 400;
+    color: #fff;
+    text-shadow: 2px 2px black;
+}
+
+.copyMessage h1 {
+    font-size: 5rem;
+}
+
+.nameColor{
+    display:flex;
+    text-transform:uppercase;
+    justify-content:space-between;
+    width: 100%;
+    align-content: flex-end;
+    letter-spacing: 1px;
+}
+
+.colorName{
+    padding:5px;
+}
+
+.seeMore{
+    color:#fff;
+    padding:5px;
+    background-color: rgb(255,255,255,0.4);
+}
