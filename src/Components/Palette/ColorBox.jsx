@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import {CopyToClipboard} from 'react-copy-to-clipboard'
+import { CopyToClipboard } from 'react-copy-to-clipboard'
 import styles from './ColorBox.module.css'
 
 export const ColorBox = props => {

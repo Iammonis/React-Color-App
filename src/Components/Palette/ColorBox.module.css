@@ -65,11 +65,16 @@ button{
     width: 100%;
     font-weight: 400;
     color: #fff;
-    text-shadow: 2px 2px black;
 }
 
 .copyMessage h1 {
+    text-shadow: 2px 2px black;
     font-size: 5rem;
+}
+
+.copyMessage p{
+    font-size: 2rem;
+    text-shadow: 1px 1px black;
 }
 
 .nameColor{

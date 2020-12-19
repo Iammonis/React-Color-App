@@ -1,14 +1,13 @@
-import React, { Component } from 'react'
+import React from 'react'
 import {Palette} from './Components/Palette/Palette'
 import mainColors from './mainColors'
+import { colorGenerator } from './colorGenerator.js'
 
-export default class App extends Component {
-  render() {
-    return (
-      <div>
-        <Palette palette={mainColors[0]} />
-      </div>
-    )
-  }
+export default function App() {
+
+  return (
+    <div>
+      <Palette palette={colorGenerator(mainColors[4])} />
+    </div>
+  )
 }
-
