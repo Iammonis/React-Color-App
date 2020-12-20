@@ -16,6 +16,7 @@ export default [
         { name: "green", color: "#4CAF50" },
         { name: "lightgreen", color: "#8BC34A" },
         { name: "lime", color: "#CDDC39" },
+        { name: "coconut", color: "#FEFEFE" },
         { name: "yellow", color: "#FFEB3B" },
         { name: "amber", color: "#FFC107" },
         { name: "orange", color: "#FF9800" },

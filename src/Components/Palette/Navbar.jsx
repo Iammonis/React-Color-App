@@ -43,7 +43,11 @@ const marks = [
         margin-right: 20px;
     }
 
-    
+    .logo a{
+        text-decoration: none;
+        font-weight:500;
+        color: #222;
+    }
 
     & .slider{
         width:350px;
@@ -145,7 +149,7 @@ export const Navbar = props => {
                     UNDO
                     </Button> */}
                     <IconButton size="small" aria-label="close" color="inherit" onClick={handleClose}>
-                    <CloseIcon fontSize="small" />
+                        <CloseIcon fontSize="small" />
                     </IconButton>
                 </React.Fragment>
                 }

@@ -2,8 +2,8 @@ import React from 'react'
 import mainColors from '../mainColors'
 import { colorGenerator } from '../colorGenerator'
 import { Switch, Route } from 'react-router-dom'
-import { Home } from '../Components/Home/Home'
-import { Palette } from '../Components/Palette/Palette'
+import Home from '../Components/Home/Home'
+import Palette from '../Components/Palette/Palette'
 
 export const AllRoutes = () => {
     const findPalette = id => {

@@ -30,7 +30,6 @@ export const ColorBox = props => {
                 <button>copy</button>
                 <div className={styles.nameColor}>
                     <span className={styles.colorName}>{name}</span>
-                    <span className={styles.seeMore}>MORE</span>
                 </div>
             </div>
         </CopyToClipboard>
