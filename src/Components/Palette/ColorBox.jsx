@@ -5,9 +5,11 @@ import styles from './ColorBox.module.css'
 export const ColorBox = props => {
     const { name, color } = props
     const [isCopied, setIsCopied] = useState(false)
+    let audio = new Audio('/copied.mp3')
 
     const handleCopy = () => {
         setIsCopied(true)
+        audio.play()
         setTimeout(()=>{
             setIsCopied(false)
         },1000)
